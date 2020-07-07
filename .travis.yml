@@ -27,7 +27,6 @@ matrix:
     # interpreter provided by travis.
     -  python: 3.7
        env: CHECK_WARNINGS="true"
-       if: type = cron OR commit_message =~ /\[scipy-dev\]/
 
 install: source build_tools/travis/install.sh
 script:
