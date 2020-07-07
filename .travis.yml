@@ -9,6 +9,9 @@ cache:
 
 dist: xenial
 
+arch: amd64
+      arm64
+
 env:
   global:
     # Directory where tests are run from
