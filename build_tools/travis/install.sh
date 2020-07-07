@@ -61,6 +61,7 @@ if [ `uname -m` == 'aarch64' ]; then
     conda install cython
     conda install pillow pytest pytest-cov
     pip install https://github.com/joblib/joblib/archive/master.zip
+    pip install pytest-xdist
 else    
     echo "Installing numpy and scipy master wheels"
     dev_anaconda_url=https://pypi.anaconda.org/scipy-wheels-nightly/simple
