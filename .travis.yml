@@ -9,8 +9,7 @@ cache:
 
 dist: xenial
 
-arch: amd64
-      arm64
+arch: arm64
 
 env:
   global:
